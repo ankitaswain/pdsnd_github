@@ -1,26 +1,16 @@
-### 5/15/2020
-Include the date you created this project and README file.
+### 05/19/2020
 
-### GITHUB Project
-Replace the Project Title
+### Programming For Data Science GITHUB Project
 
 ### Test GITHUB Commands
-Describe what your project is about and what it does
+This project consisted of using Git and GitHub with a simulated workflow to refactor the code generated during this program.
+The Project Submission consisted of filling of a template with all the Git commands used to perform the requested tasks. 
 
-### bikeshare.py
-Include the files used
-
-### Udacity
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+### bikeshare.py file was submitted as part of this program
 
 
-this is first change
-this is second change
+### Credits
+https://blog.udacity.com/2015/06/a-beginners-git-github-tutorial.html
 
-This is second edit
-This is third edit
-
-Added this line for commit-1
-Added this line for commit-2
 
 
