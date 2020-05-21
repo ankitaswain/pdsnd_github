@@ -72,7 +72,7 @@ def get_filters():
         else:
             print("\nLet's try this again!")
 
-    print('-'*40)
+    print('#'*40)
     return city, month, day
 
 
@@ -125,7 +125,7 @@ def load_data(city, month, day):
         df = df[df['Weekday'] == day.title()]
 
     print("\nThis took {} seconds.".format((time.time() - start_time)))
-    print('-'*40)
+    print('#'*40)
 
     return df
 
@@ -153,7 +153,7 @@ def time_stats(df):
           str(most_common_hour) + '.')
 
     print("\nThis took {} seconds.".format((time.time() - start_time)))
-    print('-'*40)
+    print('#'*40)
 
 
 def station_stats(df):
@@ -182,7 +182,7 @@ def station_stats(df):
           "of stations is: " + most_common_start_end_combination)
 
     print("\nThis took {} seconds.".format((time.time() - start_time)))
-    print('-'*40)
+    print('#'*40)
 
 
 def trip_duration_stats(df):
@@ -212,7 +212,7 @@ def trip_duration_stats(df):
           mean_travel_time + ".")
 
     print("\nThis took {} seconds.".format((time.time() - start_time)))
-    print('-'*40)
+    print('#'*40)
 
 
 def user_stats(df, city):
@@ -251,11 +251,11 @@ def user_stats(df, city):
               .format(city.title()))
 
     print("\nThis took {} seconds.".format((time.time() - start_time)))
-    print('-'*40)
+    print('#'*40)
 
 
 def raw_data(df, mark_place):
-    """Display 5 line of sorted raw data each time."""
+    """Display 6 line of sorted raw data each time."""
 
     print("\nYou opted to view raw data.")
 
