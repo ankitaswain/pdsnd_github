@@ -298,13 +298,13 @@ def raw_data(df, mark_place):
         elif sort_df == '':
             pass
 
-    # each loop displays 5 lines of raw data
+    # each loop displays 6 lines of raw data
     while True:
         for i in range(mark_place, len(df.index)):
             print("\n")
-            print(df.iloc[mark_place:mark_place+5].to_string())
+            print(df.iloc[mark_place:mark_place+6].to_string())
             print("\n")
-            mark_place += 5
+            mark_place += 6
 
             if choice("Do you want to keep printing raw data?"
                       "\n\n[y]Yes\n[n]No\n\n>") == 'y':
